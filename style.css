@@ -1,0 +1,56 @@
+body{
+    background: repeating-linear-gradient(90deg, black, transparent 100px);
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    /* padding: 6px 6px; */
+    border-radius: 20px;
+background-color:black;
+margin: 40px auto;
+width: 240px;
+height: 350px;
+display:flex ;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.row{
+/* border: 2px solid blue; */
+margin: 7PX 0PX;   
+}
+.row button{
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    /* padding: 7px 15px; */
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin: 0px 2px;
+    box-shadow: 1px 1px 10px 0px #6a6a6a;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.row .AC{
+    /* padding: 7px 8px; */
+    height: 45px;
+    width: 45px;
+}
+.row .equal{
+    width: 100px;
+}
+#result{
+    margin: 6px 0px;
+    width: 200px;
+    height: 25px;
+    text-align: right;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: 0;
+}
